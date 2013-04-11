@@ -3,9 +3,9 @@ SRC_PATH=$1;
 
 GIF2PNG=$2;
 
-[ -z $SRC_PATH ] && echo "the img source path is not set " && exit 0;
+[ -z $SRC_PATH ] && echo "the img source path is NOT set " && exit 0;
 
-[ -z $GIF2PNG ] && echo "the one-frame gif will not be turn to png by default"
+[ -z $GIF2PNG ] && echo "the one-frame gif will NOT be turn to png by default"
 
 for img in `find $SRC_PATH -name "*.jpg" `
   do
